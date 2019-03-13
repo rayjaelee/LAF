@@ -60,6 +60,17 @@
     background-color: #FF8A65 !important;
     color: white !important;
 }
+.feature-content {
+	justify-content: center;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.purple-text h2 {
+	color :#3F51B5;
+}
 
 /**footer**/
 .footer-distributed{
