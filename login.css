@@ -27,13 +27,14 @@
  /************** 
     Body css
  ***************/
+
 .box {
   width: 350px;
   padding: 40px;
-  position: absolute;
+  position: relative;
+  align-content: center;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  left:40%;
   border: none;
   border-radius: 25px;
   text-align: center;
@@ -107,6 +108,7 @@ h1 {
 	width: 100%;
 	font: bold 16px sans-serif;
 	text-align: left;
+
 	padding: 50px 60px 40px;
 	margin-top: 80px;
     overflow: hidden;
