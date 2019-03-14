@@ -46,16 +46,23 @@
 }
 
 /* Clear floats after image containers */
-.row::after {
+/* .row::after {
   content: "";
   clear: both;
   display: table;
   align-content: center;
+} */
+
+.row {
+	display: flex;
+	justify-content: space-around;
 }
 
 .text {
 	text-align: center;
 	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .your-business, .your-commmunity, .someones-life {
