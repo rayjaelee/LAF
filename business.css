@@ -24,6 +24,50 @@
     border-bottom: 0.3rem #FF8A65 solid !important;
 }
 
+.main {
+    display: inline-block;
+    align-content: center;
+}
+
+.main h1 {
+	color: #3F51B5;
+	text-align: center;
+}
+
+.main h2 {
+	color: #FF6737;
+	text-align: center;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 2px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  align-content: center;
+}
+
+.text {
+	text-align: center;
+	width: 80%;
+}
+
+.your-business, .your-commmunity, .someones-life {
+
+}
+.text h3 {
+	color: #FF6737;
+}
+
+.text p {
+	font-size: 20px
+}
 /**footer**/
 .footer-distributed{
 	background-color: #292c2f;
